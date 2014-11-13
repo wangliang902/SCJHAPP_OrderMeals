@@ -17,6 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor redColor];
+    
+    [self.mineCenterView selectMineView:^(NSInteger index) {
+       
+        [self hiddenMineCenter];
+        [self.tabBarController setSelectedIndex:1];
+    }];
 }
 
 - (void)didReceiveMemoryWarning {

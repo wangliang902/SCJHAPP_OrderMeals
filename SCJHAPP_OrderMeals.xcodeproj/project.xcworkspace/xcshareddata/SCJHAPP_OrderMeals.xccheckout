@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>46E6FF30-6082-4009-BEF7-FB6B044E9D32</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SCJHAPP_OrderMeals</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F0EA4FF73F0565B6B8ACB0B6C50F72370767A1A0</key>
+		<string>https://github.com/wangliang902/SCJHAPP_OrderMeals.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SCJHAPP_OrderMeals.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F0EA4FF73F0565B6B8ACB0B6C50F72370767A1A0</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/wangliang902/SCJHAPP_OrderMeals.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F0EA4FF73F0565B6B8ACB0B6C50F72370767A1A0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F0EA4FF73F0565B6B8ACB0B6C50F72370767A1A0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SCJHAPP_OrderMeals</string>
+		</dict>
+	</array>
+</dict>
+</plist>
