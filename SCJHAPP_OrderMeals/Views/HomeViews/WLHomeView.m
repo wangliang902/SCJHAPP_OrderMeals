@@ -30,7 +30,7 @@
         WLHomeHeadView *homeHeadView = [[WLHomeHeadView alloc] initWithFrame:CGRectMake(0, IOS_IPHONE_NAVIGATION_H_HIGH, IOS_IPHONE_WINDOW_WIDE, HOME_HEAD_HIGH)];
         [self addSubview:homeHeadView];
         
-        _homeContentView = [[WLHomeContentView alloc] initWithFrame:CGRectMake(0, IOS_IPHONE_NAVIGATION_H_HIGH + HOME_HEAD_HIGH, frame.size.width, frame.size.height - HOME_HEAD_HIGH)];
+        _homeContentView = [[WLHomeContentView alloc] initWithFrame:CGRectMake(0, IOS_IPHONE_NAVIGATION_H_HIGH + HOME_HEAD_HIGH, frame.size.width, frame.size.height - HOME_HEAD_HIGH - IOS_IPHONE_NAVIGATION_H_HIGH)];
         [self addSubview:_homeContentView];
         
         [homeHeadView changeHeadView:^(NSInteger index) {

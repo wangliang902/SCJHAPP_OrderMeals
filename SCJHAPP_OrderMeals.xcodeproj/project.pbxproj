@@ -38,6 +38,10 @@
 		F5D1B8181A14A4F000ADA2B1 /* WLOrderMealInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D1B8171A14A4F000ADA2B1 /* WLOrderMealInfoViewController.m */; };
 		F5D1B81B1A14A6BE00ADA2B1 /* WLOrderMealQureyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D1B81A1A14A6BE00ADA2B1 /* WLOrderMealQureyViewController.m */; };
 		F5D1B81E1A14A88900ADA2B1 /* WLOrderMealPayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D1B81D1A14A88900ADA2B1 /* WLOrderMealPayViewController.m */; };
+		F5D1B8221A14B0F800ADA2B1 /* UIScrollView+WLRersh.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D1B8211A14B0F800ADA2B1 /* UIScrollView+WLRersh.m */; };
+		F5D1B8291A14B62900ADA2B1 /* AAPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D1B8261A14B62900ADA2B1 /* AAPullToRefresh.m */; };
+		F5D1B82A1A14B62900ADA2B1 /* centerIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D1B8271A14B62900ADA2B1 /* centerIcon@2x.png */; };
+		F5D1B82B1A14B62900ADA2B1 /* launchpad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D1B8281A14B62900ADA2B1 /* launchpad@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +118,12 @@
 		F5D1B81A1A14A6BE00ADA2B1 /* WLOrderMealQureyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLOrderMealQureyViewController.m; sourceTree = "<group>"; };
 		F5D1B81C1A14A88900ADA2B1 /* WLOrderMealPayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLOrderMealPayViewController.h; sourceTree = "<group>"; };
 		F5D1B81D1A14A88900ADA2B1 /* WLOrderMealPayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLOrderMealPayViewController.m; sourceTree = "<group>"; };
+		F5D1B8201A14B0F800ADA2B1 /* UIScrollView+WLRersh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+WLRersh.h"; sourceTree = "<group>"; };
+		F5D1B8211A14B0F800ADA2B1 /* UIScrollView+WLRersh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+WLRersh.m"; sourceTree = "<group>"; };
+		F5D1B8251A14B62900ADA2B1 /* AAPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPullToRefresh.h; sourceTree = "<group>"; };
+		F5D1B8261A14B62900ADA2B1 /* AAPullToRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPullToRefresh.m; sourceTree = "<group>"; };
+		F5D1B8271A14B62900ADA2B1 /* centerIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "centerIcon@2x.png"; sourceTree = "<group>"; };
+		F5D1B8281A14B62900ADA2B1 /* launchpad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launchpad@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +165,8 @@
 		F5D1B7A01A14762300ADA2B1 /* SCJHAPP_OrderMeals */ = {
 			isa = PBXGroup;
 			children = (
+				F5D1B8231A14B61300ADA2B1 /* OtherCodes */,
+				F5D1B81F1A14B0D300ADA2B1 /* Categroys */,
 				F5D1B7C71A1477F200ADA2B1 /* Models */,
 				F5D1B7C81A1477F200ADA2B1 /* ViewControllers */,
 				F5D1B7C91A1477F200ADA2B1 /* Views */,
@@ -307,6 +319,34 @@
 			path = OrderMealVC;
 			sourceTree = "<group>";
 		};
+		F5D1B81F1A14B0D300ADA2B1 /* Categroys */ = {
+			isa = PBXGroup;
+			children = (
+				F5D1B8201A14B0F800ADA2B1 /* UIScrollView+WLRersh.h */,
+				F5D1B8211A14B0F800ADA2B1 /* UIScrollView+WLRersh.m */,
+			);
+			path = Categroys;
+			sourceTree = "<group>";
+		};
+		F5D1B8231A14B61300ADA2B1 /* OtherCodes */ = {
+			isa = PBXGroup;
+			children = (
+				F5D1B8241A14B62900ADA2B1 /* AAPullToRefresh */,
+			);
+			path = OtherCodes;
+			sourceTree = "<group>";
+		};
+		F5D1B8241A14B62900ADA2B1 /* AAPullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				F5D1B8251A14B62900ADA2B1 /* AAPullToRefresh.h */,
+				F5D1B8261A14B62900ADA2B1 /* AAPullToRefresh.m */,
+				F5D1B8271A14B62900ADA2B1 /* centerIcon@2x.png */,
+				F5D1B8281A14B62900ADA2B1 /* launchpad@2x.png */,
+			);
+			path = AAPullToRefresh;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -387,7 +427,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5D1B82A1A14B62900ADA2B1 /* centerIcon@2x.png in Resources */,
 				F5D1B7AD1A14762300ADA2B1 /* Main.storyboard in Resources */,
+				F5D1B82B1A14B62900ADA2B1 /* launchpad@2x.png in Resources */,
 				F5D1B7B21A14762300ADA2B1 /* LaunchScreen.xib in Resources */,
 				F5D1B7AF1A14762300ADA2B1 /* Images.xcassets in Resources */,
 			);
@@ -425,11 +467,13 @@
 				F5D1B7A71A14762300ADA2B1 /* AppDelegate.m in Sources */,
 				F5D1B7D11A14799700ADA2B1 /* WLMineCenterView.m in Sources */,
 				F5D1B81B1A14A6BE00ADA2B1 /* WLOrderMealQureyViewController.m in Sources */,
+				F5D1B8291A14B62900ADA2B1 /* AAPullToRefresh.m in Sources */,
 				F5D1B7CC1A14795900ADA2B1 /* WLBaseViewController.m in Sources */,
 				F5D1B80A1A149C1100ADA2B1 /* WLForgetViewController.m in Sources */,
 				F5D1B7A41A14762300ADA2B1 /* main.m in Sources */,
 				F5D1B7DD1A14800900ADA2B1 /* WLMineHouseViewController.m in Sources */,
 				F5D1B7FB1A1487AA00ADA2B1 /* WLHomeHotView.m in Sources */,
+				F5D1B8221A14B0F800ADA2B1 /* UIScrollView+WLRersh.m in Sources */,
 				F5D1B7D71A147CEE00ADA2B1 /* WLAboutViewController.m in Sources */,
 				F5D1B7E01A14804A00ADA2B1 /* WLHomeViewController.m in Sources */,
 				F5D1B7FC1A1487AA00ADA2B1 /* WLHomeSellerView.m in Sources */,

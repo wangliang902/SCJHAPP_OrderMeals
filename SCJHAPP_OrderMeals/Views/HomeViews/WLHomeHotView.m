@@ -8,6 +8,7 @@
 
 #import "WLHomeHotView.h"
 #import "WLHomeHotTableViewCell.h"
+#import "AAPullToRefresh.h"
 
 @interface WLHomeHotView () <UITableViewDataSource,UITableViewDelegate>
 
@@ -28,6 +29,16 @@
         _hotTableView.dataSource = self;
         _hotTableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
         [self addSubview:_hotTableView];
+        
+        AAPullToRefresh *tv = [_hotTableView addPullToRefreshPosition:AAPullToRefreshPositionTop actionHandler:^(AAPullToRefresh *v) {
+            [v performSelector:@selector(stopIndicatorAnimation) withObject:nil afterDelay:1.0f];
+        }];
+        
+        [_hotTableView addPullToRefreshPosition:AAPullToRefreshPositionBottom actionHandler:^(AAPullToRefresh *v) {
+            [v performSelector:@selector(stopIndicatorAnimation) withObject:nil afterDelay:1.0f];
+        }];
+        tv.imageIcon = [UIImage imageNamed:@"launchpad"];
+        tv.borderColor = [UIColor whiteColor];
     }
     return self;
 }
