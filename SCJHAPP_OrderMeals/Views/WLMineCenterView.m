@@ -10,7 +10,7 @@
 //models
 #import "WLMineModel.h"
 
-#define MINE_CELL_HIGH (100)
+#define MINE_CELL_HIGH (50)
 
 static WLMineCenterView* mineCenterView = nil;
 
@@ -64,10 +64,11 @@ static WLMineCenterView* mineCenterView = nil;
     NSArray *titleArray = [WLMineModel sharaMineModel].mineArray;
     for (int i = 0; i < titleArray.count; i ++ )
     {
-        UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, _mineScrollview.frame.size.width, MINE_CELL_HIGH * (i + 1))];
+        UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(0, (MINE_CELL_HIGH + 10) * (i + 1), _mineScrollview.frame.size.width, MINE_CELL_HIGH)];
         [button setTitle:titleArray[i] forState:UIControlStateNormal];
         [_mineScrollview addSubview:button];
 
+        button.backgroundColor = [UIColor orangeColor];
         [button addTarget:self action:@selector(buttonAction:) forControlEvents:UIControlEventTouchUpInside];
         
         [self.buttonArray addObject:button];
@@ -78,7 +79,12 @@ static WLMineCenterView* mineCenterView = nil;
 
 - (void)buttonAction:(UIButton *)sender
 {
-    aBlock([_buttonArray indexOfObject:sender]);
+    NSInteger index = [_buttonArray indexOfObject:sender];
+    if (index >= 5)
+    {
+        index = 0;
+    }
+    aBlock(index);
 }
 
 #pragma mark - 设置点击之后的回调函数
@@ -86,6 +92,8 @@ static WLMineCenterView* mineCenterView = nil;
 - (void)selectMineView:(MineCenterCallBack)block
 {
     aBlock = block;
+    NSLog(@"%@",aBlock);
+    
 }
 
 @end

@@ -20,6 +20,10 @@
 #define IOS_IPHONE_WINDOW_CENTER_X (IOS_IPHONE_WINDOW_FRAME.size.width / 2)
 //某个视图Y轴的中心值
 #define IOS_IPHONE_VIEW_CENTER_Y(view) (view.frame.size.height / 2)
+//根据某个view视图确定坐标
+#define IOS_IPHONE_VIEW_NEST_X(view) (view.frame.size.width + view.frame.origin.x)//x坐标
+#define IOS_IPHONE_VIEW_NEST_Y(view) (view.frame.size.height + view.frame.origin.y)//y坐标
+
 
 
 /**---------高度-----------*/

@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		F5D1B7A41A14762300ADA2B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D1B7A31A14762300ADA2B1 /* main.m */; };
 		F5D1B7A71A14762300ADA2B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D1B7A61A14762300ADA2B1 /* AppDelegate.m */; };
-		F5D1B7AA1A14762300ADA2B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D1B7A91A14762300ADA2B1 /* ViewController.m */; };
 		F5D1B7AD1A14762300ADA2B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5D1B7AB1A14762300ADA2B1 /* Main.storyboard */; };
 		F5D1B7AF1A14762300ADA2B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5D1B7AE1A14762300ADA2B1 /* Images.xcassets */; };
 		F5D1B7B21A14762300ADA2B1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5D1B7B01A14762300ADA2B1 /* LaunchScreen.xib */; };
@@ -17,6 +16,28 @@
 		F5D1B7CC1A14795900ADA2B1 /* WLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D1B7CB1A14795900ADA2B1 /* WLBaseViewController.m */; };
 		F5D1B7D11A14799700ADA2B1 /* WLMineCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D1B7D01A14799700ADA2B1 /* WLMineCenterView.m */; };
 		F5D1B7D41A147A4F00ADA2B1 /* WLMineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D1B7D31A147A4F00ADA2B1 /* WLMineModel.m */; };
+		F5D1B7D71A147CEE00ADA2B1 /* WLAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D1B7D61A147CEE00ADA2B1 /* WLAboutViewController.m */; };
+		F5D1B7DA1A147DE500ADA2B1 /* WLMineOrdersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D1B7D91A147DE500ADA2B1 /* WLMineOrdersViewController.m */; };
+		F5D1B7DD1A14800900ADA2B1 /* WLMineHouseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D1B7DC1A14800900ADA2B1 /* WLMineHouseViewController.m */; };
+		F5D1B7E01A14804A00ADA2B1 /* WLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D1B7DF1A14804A00ADA2B1 /* WLHomeViewController.m */; };
+		F5D1B7EA1A14878900ADA2B1 /* WLHomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D1B7E31A14878900ADA2B1 /* WLHomeCollectionViewCell.m */; };
+		F5D1B7EB1A14878900ADA2B1 /* WLHomeHotTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D1B7E51A14878900ADA2B1 /* WLHomeHotTableViewCell.m */; };
+		F5D1B7EC1A14878900ADA2B1 /* WLHomeSellerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D1B7E71A14878900ADA2B1 /* WLHomeSellerTableViewCell.m */; };
+		F5D1B7ED1A14878900ADA2B1 /* WLSellerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D1B7E91A14878900ADA2B1 /* WLSellerTableViewCell.m */; };
+		F5D1B7F91A1487AA00ADA2B1 /* WLHomeContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D1B7F01A1487AA00ADA2B1 /* WLHomeContentView.m */; };
+		F5D1B7FA1A1487AA00ADA2B1 /* WLHomeHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D1B7F21A1487AA00ADA2B1 /* WLHomeHeadView.m */; };
+		F5D1B7FB1A1487AA00ADA2B1 /* WLHomeHotView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D1B7F41A1487AA00ADA2B1 /* WLHomeHotView.m */; };
+		F5D1B7FC1A1487AA00ADA2B1 /* WLHomeSellerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D1B7F61A1487AA00ADA2B1 /* WLHomeSellerView.m */; };
+		F5D1B7FD1A1487AA00ADA2B1 /* WLHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D1B7F81A1487AA00ADA2B1 /* WLHomeView.m */; };
+		F5D1B8001A14887600ADA2B1 /* WLSellerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D1B7FF1A14887600ADA2B1 /* WLSellerViewController.m */; };
+		F5D1B8031A148B0D00ADA2B1 /* WLLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D1B8021A148B0D00ADA2B1 /* WLLoginViewController.m */; };
+		F5D1B80A1A149C1100ADA2B1 /* WLForgetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D1B8091A149C1100ADA2B1 /* WLForgetViewController.m */; };
+		F5D1B80D1A149C6500ADA2B1 /* WLRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D1B80C1A149C6500ADA2B1 /* WLRegisterViewController.m */; };
+		F5D1B8111A149E9500ADA2B1 /* WLFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D1B8101A149E9500ADA2B1 /* WLFindViewController.m */; };
+		F5D1B8141A14A0B900ADA2B1 /* WLFindInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D1B8131A14A0B900ADA2B1 /* WLFindInfoViewController.m */; };
+		F5D1B8181A14A4F000ADA2B1 /* WLOrderMealInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D1B8171A14A4F000ADA2B1 /* WLOrderMealInfoViewController.m */; };
+		F5D1B81B1A14A6BE00ADA2B1 /* WLOrderMealQureyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D1B81A1A14A6BE00ADA2B1 /* WLOrderMealQureyViewController.m */; };
+		F5D1B81E1A14A88900ADA2B1 /* WLOrderMealPayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D1B81D1A14A88900ADA2B1 /* WLOrderMealPayViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +56,6 @@
 		F5D1B7A31A14762300ADA2B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F5D1B7A51A14762300ADA2B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F5D1B7A61A14762300ADA2B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F5D1B7A81A14762300ADA2B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F5D1B7A91A14762300ADA2B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F5D1B7AC1A14762300ADA2B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5D1B7AE1A14762300ADA2B1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F5D1B7B11A14762300ADA2B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -51,6 +70,50 @@
 		F5D1B7D01A14799700ADA2B1 /* WLMineCenterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLMineCenterView.m; sourceTree = "<group>"; };
 		F5D1B7D21A147A4F00ADA2B1 /* WLMineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLMineModel.h; sourceTree = "<group>"; };
 		F5D1B7D31A147A4F00ADA2B1 /* WLMineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLMineModel.m; sourceTree = "<group>"; };
+		F5D1B7D51A147CEE00ADA2B1 /* WLAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLAboutViewController.h; sourceTree = "<group>"; };
+		F5D1B7D61A147CEE00ADA2B1 /* WLAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLAboutViewController.m; sourceTree = "<group>"; };
+		F5D1B7D81A147DE500ADA2B1 /* WLMineOrdersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLMineOrdersViewController.h; sourceTree = "<group>"; };
+		F5D1B7D91A147DE500ADA2B1 /* WLMineOrdersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLMineOrdersViewController.m; sourceTree = "<group>"; };
+		F5D1B7DB1A14800900ADA2B1 /* WLMineHouseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLMineHouseViewController.h; sourceTree = "<group>"; };
+		F5D1B7DC1A14800900ADA2B1 /* WLMineHouseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLMineHouseViewController.m; sourceTree = "<group>"; };
+		F5D1B7DE1A14804A00ADA2B1 /* WLHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLHomeViewController.h; sourceTree = "<group>"; };
+		F5D1B7DF1A14804A00ADA2B1 /* WLHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLHomeViewController.m; sourceTree = "<group>"; };
+		F5D1B7E21A14878900ADA2B1 /* WLHomeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLHomeCollectionViewCell.h; sourceTree = "<group>"; };
+		F5D1B7E31A14878900ADA2B1 /* WLHomeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLHomeCollectionViewCell.m; sourceTree = "<group>"; };
+		F5D1B7E41A14878900ADA2B1 /* WLHomeHotTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLHomeHotTableViewCell.h; sourceTree = "<group>"; };
+		F5D1B7E51A14878900ADA2B1 /* WLHomeHotTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLHomeHotTableViewCell.m; sourceTree = "<group>"; };
+		F5D1B7E61A14878900ADA2B1 /* WLHomeSellerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLHomeSellerTableViewCell.h; sourceTree = "<group>"; };
+		F5D1B7E71A14878900ADA2B1 /* WLHomeSellerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLHomeSellerTableViewCell.m; sourceTree = "<group>"; };
+		F5D1B7E81A14878900ADA2B1 /* WLSellerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLSellerTableViewCell.h; sourceTree = "<group>"; };
+		F5D1B7E91A14878900ADA2B1 /* WLSellerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLSellerTableViewCell.m; sourceTree = "<group>"; };
+		F5D1B7EF1A1487AA00ADA2B1 /* WLHomeContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLHomeContentView.h; sourceTree = "<group>"; };
+		F5D1B7F01A1487AA00ADA2B1 /* WLHomeContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLHomeContentView.m; sourceTree = "<group>"; };
+		F5D1B7F11A1487AA00ADA2B1 /* WLHomeHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLHomeHeadView.h; sourceTree = "<group>"; };
+		F5D1B7F21A1487AA00ADA2B1 /* WLHomeHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLHomeHeadView.m; sourceTree = "<group>"; };
+		F5D1B7F31A1487AA00ADA2B1 /* WLHomeHotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLHomeHotView.h; sourceTree = "<group>"; };
+		F5D1B7F41A1487AA00ADA2B1 /* WLHomeHotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLHomeHotView.m; sourceTree = "<group>"; };
+		F5D1B7F51A1487AA00ADA2B1 /* WLHomeSellerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLHomeSellerView.h; sourceTree = "<group>"; };
+		F5D1B7F61A1487AA00ADA2B1 /* WLHomeSellerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLHomeSellerView.m; sourceTree = "<group>"; };
+		F5D1B7F71A1487AA00ADA2B1 /* WLHomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLHomeView.h; sourceTree = "<group>"; };
+		F5D1B7F81A1487AA00ADA2B1 /* WLHomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLHomeView.m; sourceTree = "<group>"; };
+		F5D1B7FE1A14887600ADA2B1 /* WLSellerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLSellerViewController.h; sourceTree = "<group>"; };
+		F5D1B7FF1A14887600ADA2B1 /* WLSellerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLSellerViewController.m; sourceTree = "<group>"; };
+		F5D1B8011A148B0D00ADA2B1 /* WLLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLLoginViewController.h; sourceTree = "<group>"; };
+		F5D1B8021A148B0D00ADA2B1 /* WLLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLLoginViewController.m; sourceTree = "<group>"; };
+		F5D1B8081A149C1100ADA2B1 /* WLForgetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLForgetViewController.h; sourceTree = "<group>"; };
+		F5D1B8091A149C1100ADA2B1 /* WLForgetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLForgetViewController.m; sourceTree = "<group>"; };
+		F5D1B80B1A149C6500ADA2B1 /* WLRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLRegisterViewController.h; sourceTree = "<group>"; };
+		F5D1B80C1A149C6500ADA2B1 /* WLRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLRegisterViewController.m; sourceTree = "<group>"; };
+		F5D1B80F1A149E9500ADA2B1 /* WLFindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLFindViewController.h; sourceTree = "<group>"; };
+		F5D1B8101A149E9500ADA2B1 /* WLFindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLFindViewController.m; sourceTree = "<group>"; };
+		F5D1B8121A14A0B900ADA2B1 /* WLFindInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLFindInfoViewController.h; sourceTree = "<group>"; };
+		F5D1B8131A14A0B900ADA2B1 /* WLFindInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLFindInfoViewController.m; sourceTree = "<group>"; };
+		F5D1B8161A14A4F000ADA2B1 /* WLOrderMealInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLOrderMealInfoViewController.h; sourceTree = "<group>"; };
+		F5D1B8171A14A4F000ADA2B1 /* WLOrderMealInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLOrderMealInfoViewController.m; sourceTree = "<group>"; };
+		F5D1B8191A14A6BE00ADA2B1 /* WLOrderMealQureyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLOrderMealQureyViewController.h; sourceTree = "<group>"; };
+		F5D1B81A1A14A6BE00ADA2B1 /* WLOrderMealQureyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLOrderMealQureyViewController.m; sourceTree = "<group>"; };
+		F5D1B81C1A14A88900ADA2B1 /* WLOrderMealPayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLOrderMealPayViewController.h; sourceTree = "<group>"; };
+		F5D1B81D1A14A88900ADA2B1 /* WLOrderMealPayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLOrderMealPayViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +160,6 @@
 				F5D1B7C91A1477F200ADA2B1 /* Views */,
 				F5D1B7A51A14762300ADA2B1 /* AppDelegate.h */,
 				F5D1B7A61A14762300ADA2B1 /* AppDelegate.m */,
-				F5D1B7A81A14762300ADA2B1 /* ViewController.h */,
-				F5D1B7A91A14762300ADA2B1 /* ViewController.m */,
 				F5D1B7AB1A14762300ADA2B1 /* Main.storyboard */,
 				F5D1B7AE1A14762300ADA2B1 /* Images.xcassets */,
 				F5D1B7B01A14762300ADA2B1 /* LaunchScreen.xib */,
@@ -147,8 +208,23 @@
 		F5D1B7C81A1477F200ADA2B1 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				F5D1B8151A14A4D800ADA2B1 /* OrderMealVC */,
+				F5D1B80E1A149E7C00ADA2B1 /* FindVC */,
+				F5D1B8071A149C1100ADA2B1 /* LoginVC */,
+				F5D1B7DE1A14804A00ADA2B1 /* WLHomeViewController.h */,
+				F5D1B7DF1A14804A00ADA2B1 /* WLHomeViewController.m */,
 				F5D1B7CA1A14795900ADA2B1 /* WLBaseViewController.h */,
 				F5D1B7CB1A14795900ADA2B1 /* WLBaseViewController.m */,
+				F5D1B7D51A147CEE00ADA2B1 /* WLAboutViewController.h */,
+				F5D1B7D61A147CEE00ADA2B1 /* WLAboutViewController.m */,
+				F5D1B7D81A147DE500ADA2B1 /* WLMineOrdersViewController.h */,
+				F5D1B7D91A147DE500ADA2B1 /* WLMineOrdersViewController.m */,
+				F5D1B7DB1A14800900ADA2B1 /* WLMineHouseViewController.h */,
+				F5D1B7DC1A14800900ADA2B1 /* WLMineHouseViewController.m */,
+				F5D1B7FE1A14887600ADA2B1 /* WLSellerViewController.h */,
+				F5D1B7FF1A14887600ADA2B1 /* WLSellerViewController.m */,
+				F5D1B8011A148B0D00ADA2B1 /* WLLoginViewController.h */,
+				F5D1B8021A148B0D00ADA2B1 /* WLLoginViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -156,10 +232,79 @@
 		F5D1B7C91A1477F200ADA2B1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F5D1B7EE1A1487AA00ADA2B1 /* HomeViews */,
+				F5D1B7E11A14878900ADA2B1 /* cells */,
 				F5D1B7CF1A14799700ADA2B1 /* WLMineCenterView.h */,
 				F5D1B7D01A14799700ADA2B1 /* WLMineCenterView.m */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		F5D1B7E11A14878900ADA2B1 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				F5D1B7E21A14878900ADA2B1 /* WLHomeCollectionViewCell.h */,
+				F5D1B7E31A14878900ADA2B1 /* WLHomeCollectionViewCell.m */,
+				F5D1B7E41A14878900ADA2B1 /* WLHomeHotTableViewCell.h */,
+				F5D1B7E51A14878900ADA2B1 /* WLHomeHotTableViewCell.m */,
+				F5D1B7E61A14878900ADA2B1 /* WLHomeSellerTableViewCell.h */,
+				F5D1B7E71A14878900ADA2B1 /* WLHomeSellerTableViewCell.m */,
+				F5D1B7E81A14878900ADA2B1 /* WLSellerTableViewCell.h */,
+				F5D1B7E91A14878900ADA2B1 /* WLSellerTableViewCell.m */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		F5D1B7EE1A1487AA00ADA2B1 /* HomeViews */ = {
+			isa = PBXGroup;
+			children = (
+				F5D1B7EF1A1487AA00ADA2B1 /* WLHomeContentView.h */,
+				F5D1B7F01A1487AA00ADA2B1 /* WLHomeContentView.m */,
+				F5D1B7F11A1487AA00ADA2B1 /* WLHomeHeadView.h */,
+				F5D1B7F21A1487AA00ADA2B1 /* WLHomeHeadView.m */,
+				F5D1B7F31A1487AA00ADA2B1 /* WLHomeHotView.h */,
+				F5D1B7F41A1487AA00ADA2B1 /* WLHomeHotView.m */,
+				F5D1B7F51A1487AA00ADA2B1 /* WLHomeSellerView.h */,
+				F5D1B7F61A1487AA00ADA2B1 /* WLHomeSellerView.m */,
+				F5D1B7F71A1487AA00ADA2B1 /* WLHomeView.h */,
+				F5D1B7F81A1487AA00ADA2B1 /* WLHomeView.m */,
+			);
+			path = HomeViews;
+			sourceTree = "<group>";
+		};
+		F5D1B8071A149C1100ADA2B1 /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				F5D1B8081A149C1100ADA2B1 /* WLForgetViewController.h */,
+				F5D1B8091A149C1100ADA2B1 /* WLForgetViewController.m */,
+				F5D1B80B1A149C6500ADA2B1 /* WLRegisterViewController.h */,
+				F5D1B80C1A149C6500ADA2B1 /* WLRegisterViewController.m */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		F5D1B80E1A149E7C00ADA2B1 /* FindVC */ = {
+			isa = PBXGroup;
+			children = (
+				F5D1B80F1A149E9500ADA2B1 /* WLFindViewController.h */,
+				F5D1B8101A149E9500ADA2B1 /* WLFindViewController.m */,
+				F5D1B8121A14A0B900ADA2B1 /* WLFindInfoViewController.h */,
+				F5D1B8131A14A0B900ADA2B1 /* WLFindInfoViewController.m */,
+			);
+			path = FindVC;
+			sourceTree = "<group>";
+		};
+		F5D1B8151A14A4D800ADA2B1 /* OrderMealVC */ = {
+			isa = PBXGroup;
+			children = (
+				F5D1B8161A14A4F000ADA2B1 /* WLOrderMealInfoViewController.h */,
+				F5D1B8171A14A4F000ADA2B1 /* WLOrderMealInfoViewController.m */,
+				F5D1B8191A14A6BE00ADA2B1 /* WLOrderMealQureyViewController.h */,
+				F5D1B81A1A14A6BE00ADA2B1 /* WLOrderMealQureyViewController.m */,
+				F5D1B81C1A14A88900ADA2B1 /* WLOrderMealPayViewController.h */,
+				F5D1B81D1A14A88900ADA2B1 /* WLOrderMealPayViewController.m */,
+			);
+			path = OrderMealVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,11 +407,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5D1B7AA1A14762300ADA2B1 /* ViewController.m in Sources */,
+				F5D1B7F91A1487AA00ADA2B1 /* WLHomeContentView.m in Sources */,
+				F5D1B7EC1A14878900ADA2B1 /* WLHomeSellerTableViewCell.m in Sources */,
+				F5D1B80D1A149C6500ADA2B1 /* WLRegisterViewController.m in Sources */,
+				F5D1B7FD1A1487AA00ADA2B1 /* WLHomeView.m in Sources */,
+				F5D1B8141A14A0B900ADA2B1 /* WLFindInfoViewController.m in Sources */,
+				F5D1B8181A14A4F000ADA2B1 /* WLOrderMealInfoViewController.m in Sources */,
+				F5D1B7FA1A1487AA00ADA2B1 /* WLHomeHeadView.m in Sources */,
+				F5D1B7ED1A14878900ADA2B1 /* WLSellerTableViewCell.m in Sources */,
+				F5D1B7EA1A14878900ADA2B1 /* WLHomeCollectionViewCell.m in Sources */,
+				F5D1B8001A14887600ADA2B1 /* WLSellerViewController.m in Sources */,
+				F5D1B7DA1A147DE500ADA2B1 /* WLMineOrdersViewController.m in Sources */,
+				F5D1B81E1A14A88900ADA2B1 /* WLOrderMealPayViewController.m in Sources */,
+				F5D1B8111A149E9500ADA2B1 /* WLFindViewController.m in Sources */,
+				F5D1B7EB1A14878900ADA2B1 /* WLHomeHotTableViewCell.m in Sources */,
+				F5D1B8031A148B0D00ADA2B1 /* WLLoginViewController.m in Sources */,
 				F5D1B7A71A14762300ADA2B1 /* AppDelegate.m in Sources */,
 				F5D1B7D11A14799700ADA2B1 /* WLMineCenterView.m in Sources */,
+				F5D1B81B1A14A6BE00ADA2B1 /* WLOrderMealQureyViewController.m in Sources */,
 				F5D1B7CC1A14795900ADA2B1 /* WLBaseViewController.m in Sources */,
+				F5D1B80A1A149C1100ADA2B1 /* WLForgetViewController.m in Sources */,
 				F5D1B7A41A14762300ADA2B1 /* main.m in Sources */,
+				F5D1B7DD1A14800900ADA2B1 /* WLMineHouseViewController.m in Sources */,
+				F5D1B7FB1A1487AA00ADA2B1 /* WLHomeHotView.m in Sources */,
+				F5D1B7D71A147CEE00ADA2B1 /* WLAboutViewController.m in Sources */,
+				F5D1B7E01A14804A00ADA2B1 /* WLHomeViewController.m in Sources */,
+				F5D1B7FC1A1487AA00ADA2B1 /* WLHomeSellerView.m in Sources */,
 				F5D1B7D41A147A4F00ADA2B1 /* WLMineModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

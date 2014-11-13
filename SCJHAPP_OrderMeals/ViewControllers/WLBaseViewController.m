@@ -29,15 +29,21 @@
     UIButton *leftButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, IOS_IPHONE_NAVIGATION_BAR_IMAGE_HIGH, IOS_IPHONE_NAVIGATION_BAR_IMAGE_HIGH)];
     leftButton.backgroundColor = [UIColor redColor];
     [leftButton addTarget:self action:@selector(leftButtonAction:) forControlEvents:UIControlEventTouchUpInside];
-    self.tabBarController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:leftButton];
+//    if (self.tabBarController.navigationController.navigationBarHidden)
+//    {
+        self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:leftButton];
+//    }else
+//    {
+        self.tabBarController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:leftButton];
+//    }
+    
     
     moveX = IOS_IPHONE_WINDOW_FRAME.size.width / 5 * 4;
    
-    if (!self.mineCenterView)
-    {
-        self.mineCenterView = [[WLMineCenterView alloc] initWithFrame:CGRectMake(-moveX, 0, moveX, IOS_IPHONE_WINDOW_HIGH)];
-        [IOS_IPHONE_WINDOW addSubview:self.mineCenterView];
-    }
+   
+    self.mineCenterView = [[WLMineCenterView alloc] initWithFrame:CGRectMake(-moveX, 0, moveX, IOS_IPHONE_WINDOW_HIGH)];
+    [IOS_IPHONE_WINDOW addSubview:self.mineCenterView];
+
     
     _alphaView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, IOS_IPHONE_WINDOW_WIDE, IOS_IPHONE_WINDOW_HIGH)];
     _alphaView.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.1];//为啥 alpha = 0，会出现bug
@@ -67,11 +73,8 @@
 
 - (void)hiddenMineCenter
 {
-    NSLog(@"hidden");
     [UIView animateWithDuration:0.2 animations:^{
         
-        NSLog(@"%@",self.mineCenterView);
-        NSLog(@"%@",self.navigationController.view);
         self.navigationController.view.transform = CGAffineTransformMakeTranslation(0, 0);
         self.mineCenterView.center = CGPointMake(self.mineCenterView.center.x - moveX, self.mineCenterView.center.y);
     } completion:^(BOOL finished) {
@@ -81,14 +84,10 @@
 
 - (void)showMineCenter
 {
-
-    NSLog(@"show");
-    NSLog(@"%@",self.mineCenterView);
-    NSLog(@"%@",self.navigationController.view);
-
     [UIView animateWithDuration:0.2 animations:^{
         self.mineCenterView.center = CGPointMake(self.mineCenterView.center.x + moveX, self.mineCenterView.center.y);
         self.navigationController.view.transform = CGAffineTransformMakeTranslation(moveX, 0);
+        [self.navigationController.view bringSubviewToFront:_alphaView];
     }completion:^(BOOL finished) {
         _alphaView.hidden = NO;
     }];
